@@ -26,7 +26,7 @@ Our experiments show that this allows us to obtain superior results to other SOT
 
 <img width="824" alt="Screenshot 2022-01-02 at 13 40 32" src="https://user-images.githubusercontent.com/94904575/147886071-b0a1b395-61e4-4352-a9ab-5678f02382ee.png">
 
-To run our code , unzip the example data provided in data/sample_datasets and run:
+**To run our code** , unzip the example data provided in data/sample_datasets and run:
 
 python train.py --dataroot ./  --input_nc 1 --output_nc 1 --dataset_mode metgan  --name metgan_test  --model metgan  --load_size 256 --netG unet_spade8sm --crop_size 256 --direction AtoB --gpu_ids 0 --lambda_segmentation 100 --lambda_pair 10 --lambda_identity 0 
 
