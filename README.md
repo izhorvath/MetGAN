@@ -34,7 +34,7 @@ python train.py --dataroot ./  --input_nc 1 --output_nc 1 --dataset_mode metgan 
 
 
 
-Note: the checkpoint for the segmentation model can be downloaded, for example, from here : https://codeocean.com/capsule/0963871/tree 
+Note: the checkpoint for the segmentation model can be downloaded, for example, from here : https://codeocean.com/capsule/0792467/tree/v1
 After downloading this file, please update its path in models/metgan_model.py , line 95
 
 
